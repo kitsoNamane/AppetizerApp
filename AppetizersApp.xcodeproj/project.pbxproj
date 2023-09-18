@@ -15,6 +15,7 @@
 		AEE11C612AB62A0900D14A4E /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE11C602AB62A0900D14A4E /* AccountView.swift */; };
 		AEE11C632AB62A2300D14A4E /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE11C622AB62A2300D14A4E /* OrderView.swift */; };
 		AEE11C652AB887B800D14A4E /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE11C642AB887B800D14A4E /* Appetizer.swift */; };
+		AEE11C672AB89B1700D14A4E /* AppetizerItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE11C662AB89B1700D14A4E /* AppetizerItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		AEE11C602AB62A0900D14A4E /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		AEE11C622AB62A2300D14A4E /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		AEE11C642AB887B800D14A4E /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
+		AEE11C662AB89B1700D14A4E /* AppetizerItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				AEE11C642AB887B800D14A4E /* Appetizer.swift */,
 				AEE11C522AB6268000D14A4E /* AppetizerTabView.swift */,
 				AEE11C5E2AB629EF00D14A4E /* AppetizerListView.swift */,
+				AEE11C662AB89B1700D14A4E /* AppetizerItemView.swift */,
 				AEE11C602AB62A0900D14A4E /* AccountView.swift */,
 				AEE11C622AB62A2300D14A4E /* OrderView.swift */,
 				AEE11C542AB6268100D14A4E /* Assets.xcassets */,
@@ -152,6 +155,7 @@
 				AEE11C652AB887B800D14A4E /* Appetizer.swift in Sources */,
 				AEE11C612AB62A0900D14A4E /* AccountView.swift in Sources */,
 				AEE11C532AB6268000D14A4E /* AppetizerTabView.swift in Sources */,
+				AEE11C672AB89B1700D14A4E /* AppetizerItemView.swift in Sources */,
 				AEE11C512AB6268000D14A4E /* AppetizersAppApp.swift in Sources */,
 				AEE11C5F2AB629EF00D14A4E /* AppetizerListView.swift in Sources */,
 				AEE11C632AB62A2300D14A4E /* OrderView.swift in Sources */,
