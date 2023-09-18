@@ -8,28 +8,28 @@
 import SwiftUI
 
 struct AppetizerItemView: View {
-    let imageURL: String
-    let name: String
-    let price: Float
+    let appetizer: Appetizer
     
     var body: some View {
         HStack(alignment: .center, spacing: 20) {
-            Image(imageURL)
+            Image(appetizer.imageURL)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-                .cornerRadius(10)
-                .frame(width: 140)
-            VStack(alignment: .leading) {
-                Text(name)
-                    .font(.title)
-                    .fontWeight(.bold)
-                Text("$\(String(format: "%.2f", price))")
-                    .fontWeight(.ultraLight)
+                .frame(width: 120, height: 90)
+                .cornerRadius(8)
+            VStack(alignment: .leading, spacing: 8) {
+                Text(appetizer.name)
+                    .font(.title2)
+                    .fontWeight(.medium)
+                Text("$\(appetizer.price, specifier: "%.2f")")
+                    .foregroundStyle(.secondary)
+                    .fontWeight(.semibold)
             }
+            .padding(.leading)
         }
     }
 }
 
 #Preview {
-    AppetizerItemView(imageURL: "asian-flank-steak", name: "Buffalo Chicked Bites", price: 12.99)
+    AppetizerItemView(appetizer: MockData.sampleAppetizer)
 }
