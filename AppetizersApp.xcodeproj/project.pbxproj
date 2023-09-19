@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AEB6D8992AB94D99000F7E99 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6D8982AB94D99000F7E99 /* LoadingView.swift */; };
 		AEB6D89D2AB95848000F7E99 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6D89C2AB95848000F7E99 /* RemoteImage.swift */; };
+		AEB6D8AA2AB95DE0000F7E99 /* AppetizerDetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6D8A92AB95DE0000F7E99 /* AppetizerDetailedView.swift */; };
 		AEE11C512AB6268000D14A4E /* AppetizersAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE11C502AB6268000D14A4E /* AppetizersAppApp.swift */; };
 		AEE11C532AB6268000D14A4E /* AppetizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE11C522AB6268000D14A4E /* AppetizerTabView.swift */; };
 		AEE11C552AB6268100D14A4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEE11C542AB6268100D14A4E /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 		AEB6D8972AB9494F000F7E99 /* AppetizersApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppetizersApp.entitlements; sourceTree = "<group>"; };
 		AEB6D8982AB94D99000F7E99 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		AEB6D89C2AB95848000F7E99 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		AEB6D8A92AB95DE0000F7E99 /* AppetizerDetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailedView.swift; sourceTree = "<group>"; };
 		AEE11C4D2AB6268000D14A4E /* AppetizersApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppetizersApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEE11C502AB6268000D14A4E /* AppetizersAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersAppApp.swift; sourceTree = "<group>"; };
 		AEE11C522AB6268000D14A4E /* AppetizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerTabView.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				AEE11C662AB89B1700D14A4E /* AppetizerItemView.swift */,
 				AEE11C5E2AB629EF00D14A4E /* AppetizerListView.swift */,
 				AEE11C6C2AB939F200D14A4E /* AppetizerListViewModel.swift */,
+				AEB6D8A92AB95DE0000F7E99 /* AppetizerDetailedView.swift */,
 			);
 			path = AppetizerListView;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEE11C652AB887B800D14A4E /* Appetizer.swift in Sources */,
+				AEB6D8AA2AB95DE0000F7E99 /* AppetizerDetailedView.swift in Sources */,
 				AEE11C6B2AB8CE4600D14A4E /* APError.swift in Sources */,
 				AEE11C612AB62A0900D14A4E /* AccountView.swift in Sources */,
 				AEE11C532AB6268000D14A4E /* AppetizerTabView.swift in Sources */,
