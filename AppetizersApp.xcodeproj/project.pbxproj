@@ -19,9 +19,11 @@
 		AEE11C692AB8CD7000D14A4E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE11C682AB8CD7000D14A4E /* NetworkManager.swift */; };
 		AEE11C6B2AB8CE4600D14A4E /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE11C6A2AB8CE4600D14A4E /* APError.swift */; };
 		AEE11C6D2AB939F200D14A4E /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE11C6C2AB939F200D14A4E /* AppetizerListViewModel.swift */; };
+		AEE11C6F2AB93C5E00D14A4E /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE11C6E2AB93C5E00D14A4E /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AEB6D8972AB9494F000F7E99 /* AppetizersApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppetizersApp.entitlements; sourceTree = "<group>"; };
 		AEE11C4D2AB6268000D14A4E /* AppetizersApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppetizersApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEE11C502AB6268000D14A4E /* AppetizersAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersAppApp.swift; sourceTree = "<group>"; };
 		AEE11C522AB6268000D14A4E /* AppetizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerTabView.swift; sourceTree = "<group>"; };
@@ -35,6 +37,7 @@
 		AEE11C682AB8CD7000D14A4E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		AEE11C6A2AB8CE4600D14A4E /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 		AEE11C6C2AB939F200D14A4E /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
+		AEE11C6E2AB93C5E00D14A4E /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 		AEE11C4F2AB6268000D14A4E /* AppetizersApp */ = {
 			isa = PBXGroup;
 			children = (
+				AEB6D8972AB9494F000F7E99 /* AppetizersApp.entitlements */,
+				AEE11C6E2AB93C5E00D14A4E /* Alert.swift */,
 				AEE11C502AB6268000D14A4E /* AppetizersAppApp.swift */,
 				AEE11C642AB887B800D14A4E /* Appetizer.swift */,
 				AEE11C522AB6268000D14A4E /* AppetizerTabView.swift */,
@@ -169,6 +174,7 @@
 				AEE11C692AB8CD7000D14A4E /* NetworkManager.swift in Sources */,
 				AEE11C512AB6268000D14A4E /* AppetizersAppApp.swift in Sources */,
 				AEE11C6D2AB939F200D14A4E /* AppetizerListViewModel.swift in Sources */,
+				AEE11C6F2AB93C5E00D14A4E /* Alert.swift in Sources */,
 				AEE11C5F2AB629EF00D14A4E /* AppetizerListView.swift in Sources */,
 				AEE11C632AB62A2300D14A4E /* OrderView.swift in Sources */,
 			);
@@ -301,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AppetizersApp/AppetizersApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AppetizersApp/Preview Content\"";
@@ -330,6 +337,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AppetizersApp/AppetizersApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AppetizersApp/Preview Content\"";
