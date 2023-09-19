@@ -8,7 +8,7 @@
 import Foundation
 
 
-final class AppetizerViewModel: ObservableObject {
+final class AppetizerListViewModel: ObservableObject {
     @Published var appetizers: [Appetizer] = []
     
     func getAppetizers() {

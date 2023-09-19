@@ -18,7 +18,7 @@
 		AEE11C672AB89B1700D14A4E /* AppetizerItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE11C662AB89B1700D14A4E /* AppetizerItemView.swift */; };
 		AEE11C692AB8CD7000D14A4E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE11C682AB8CD7000D14A4E /* NetworkManager.swift */; };
 		AEE11C6B2AB8CE4600D14A4E /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE11C6A2AB8CE4600D14A4E /* APError.swift */; };
-		AEE11C6D2AB939F200D14A4E /* AppetizerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE11C6C2AB939F200D14A4E /* AppetizerViewModel.swift */; };
+		AEE11C6D2AB939F200D14A4E /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE11C6C2AB939F200D14A4E /* AppetizerListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +34,7 @@
 		AEE11C662AB89B1700D14A4E /* AppetizerItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerItemView.swift; sourceTree = "<group>"; };
 		AEE11C682AB8CD7000D14A4E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		AEE11C6A2AB8CE4600D14A4E /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
-		AEE11C6C2AB939F200D14A4E /* AppetizerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerViewModel.swift; sourceTree = "<group>"; };
+		AEE11C6C2AB939F200D14A4E /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +73,7 @@
 				AEE11C5E2AB629EF00D14A4E /* AppetizerListView.swift */,
 				AEE11C662AB89B1700D14A4E /* AppetizerItemView.swift */,
 				AEE11C682AB8CD7000D14A4E /* NetworkManager.swift */,
-				AEE11C6C2AB939F200D14A4E /* AppetizerViewModel.swift */,
+				AEE11C6C2AB939F200D14A4E /* AppetizerListViewModel.swift */,
 				AEE11C6A2AB8CE4600D14A4E /* APError.swift */,
 				AEE11C602AB62A0900D14A4E /* AccountView.swift */,
 				AEE11C622AB62A2300D14A4E /* OrderView.swift */,
@@ -168,7 +168,7 @@
 				AEE11C672AB89B1700D14A4E /* AppetizerItemView.swift in Sources */,
 				AEE11C692AB8CD7000D14A4E /* NetworkManager.swift in Sources */,
 				AEE11C512AB6268000D14A4E /* AppetizersAppApp.swift in Sources */,
-				AEE11C6D2AB939F200D14A4E /* AppetizerViewModel.swift in Sources */,
+				AEE11C6D2AB939F200D14A4E /* AppetizerListViewModel.swift in Sources */,
 				AEE11C5F2AB629EF00D14A4E /* AppetizerListView.swift in Sources */,
 				AEE11C632AB62A2300D14A4E /* OrderView.swift in Sources */,
 			);
