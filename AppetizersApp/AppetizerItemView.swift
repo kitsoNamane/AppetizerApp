@@ -12,7 +12,7 @@ struct AppetizerItemView: View {
     
     var body: some View {
         HStack(alignment: .center, spacing: 20) {
-            Image(appetizer.imageURL)
+            Image("asian-flank-steak")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 120, height: 90)
