@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AEB6D8992AB94D99000F7E99 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6D8982AB94D99000F7E99 /* LoadingView.swift */; };
 		AEE11C512AB6268000D14A4E /* AppetizersAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE11C502AB6268000D14A4E /* AppetizersAppApp.swift */; };
 		AEE11C532AB6268000D14A4E /* AppetizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE11C522AB6268000D14A4E /* AppetizerTabView.swift */; };
 		AEE11C552AB6268100D14A4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEE11C542AB6268100D14A4E /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		AEB6D8972AB9494F000F7E99 /* AppetizersApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppetizersApp.entitlements; sourceTree = "<group>"; };
+		AEB6D8982AB94D99000F7E99 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		AEE11C4D2AB6268000D14A4E /* AppetizersApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppetizersApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEE11C502AB6268000D14A4E /* AppetizersAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersAppApp.swift; sourceTree = "<group>"; };
 		AEE11C522AB6268000D14A4E /* AppetizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerTabView.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				AEE11C622AB62A2300D14A4E /* OrderView.swift */,
 				AEE11C542AB6268100D14A4E /* Assets.xcassets */,
 				AEE11C562AB6268100D14A4E /* Preview Content */,
+				AEB6D8982AB94D99000F7E99 /* LoadingView.swift */,
 			);
 			path = AppetizersApp;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				AEE11C612AB62A0900D14A4E /* AccountView.swift in Sources */,
 				AEE11C532AB6268000D14A4E /* AppetizerTabView.swift in Sources */,
 				AEE11C672AB89B1700D14A4E /* AppetizerItemView.swift in Sources */,
+				AEB6D8992AB94D99000F7E99 /* LoadingView.swift in Sources */,
 				AEE11C692AB8CD7000D14A4E /* NetworkManager.swift in Sources */,
 				AEE11C512AB6268000D14A4E /* AppetizersAppApp.swift in Sources */,
 				AEE11C6D2AB939F200D14A4E /* AppetizerListViewModel.swift in Sources */,
