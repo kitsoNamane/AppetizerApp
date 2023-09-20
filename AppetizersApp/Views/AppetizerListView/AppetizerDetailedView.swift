@@ -9,77 +9,67 @@ import SwiftUI
 
 struct AppetizerDetailedView: View {
     let appetizer: Appetizer
+    @Binding var isShowingDetail: Bool
     
     var body: some View {
         VStack {
             AppetizerRemoteImage(urlString: appetizer.imageURL)
+                .frame(width: 320, height: 225)
                 .aspectRatio(contentMode: .fit)
-                .frame(width: .infinity)
-                .overlay(alignment: .topTrailing) {
-                    Image(systemName: "xmark.circle.fill")
-                        .symbolRenderingMode(.palette)
-                        .resizable()
-                        .foregroundStyle(.gray, .white)
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 40)
-                        .shadow(radius: 10)
-                        .padding()
-                        .onTapGesture {
-                            print("dismiss detailed view")
-                        }
-                }
-                
+            
             Text(appetizer.name)
-                    .font(.title)
-                    .fontWeight(.medium)
-                    
+                .font(.title2)
+                .fontWeight(.medium)
+            
             Text(appetizer.description)
-                    .font(.title2)
-                    .fontWeight(.ultraLight)
-                    .multilineTextAlignment(.center)
-                    .padding(.all)
-                    
+                .font(.body)
+                .multilineTextAlignment(.center)
+                .padding()
+            
             HStack(spacing: 40) {
-                VStack {
-                    Text("Calories")
-                    Text("\(appetizer.calories)")
-                        .font(.title3)
-                        .fontWeight(.ultraLight)
-                        .italic()
-                }
-                VStack {
-                    Text("Carbs")
-                    Text("\(appetizer.carbs) g")
-                        .font(.title3)
-                        .fontWeight(.ultraLight)
-                        .italic()
-                }
-                VStack {
-                    Text("Protein")
-                    Text("\(appetizer.protein) g")
-                        .font(.title3)
-                        .fontWeight(.ultraLight)
-                        .italic()
-                }
+                NutritionInfo(title: "Calories", value: appetizer.calories)
+                
+                NutritionInfo(title: "Carbs", value: appetizer.carbs)
+                
+                NutritionInfo(title: "Protein", value: appetizer.protein)
             }
-            .padding(EdgeInsets(top: 40, leading: 20, bottom: 40, trailing: 20))
+            
+            Spacer()
             
             Button {
-                
             } label: {
-                Text("$\(appetizer.price, specifier: "%0.2f") - Add To Order")
-                    .font(.title2)
-                    .fontWeight(.medium)
-                    .foregroundStyle(.white)
+                APButton(title: "$\(appetizer.price, specifier: "%.2f") - Add To Order")
             }
-            .buttonStyle(.bordered)
-            .controlSize(.large)
-            .tint(.brandPrimary)
-            .padding()
+            .padding(.bottom, 30)
+        }
+        .frame(width: 320, height: 525)
+        .background(Color(.systemBackground))
+        .cornerRadius(12)
+        .shadow(radius: 40)
+        .overlay(alignment: .topTrailing) {
+            APDismissButton()
+                .onTapGesture {
+                    isShowingDetail = false
+                }
+        }
+    }
+}
+
+struct NutritionInfo: View {
+    let title: String
+    let value: Int
+    
+    var body: some View {
+        VStack(spacing: 4) {
+            Text(title)
+            Text("\(value)")
+                .font(.title3)
+                .fontWeight(.ultraLight)
+                .italic()
         }
     }
 }
 
 #Preview {
-    AppetizerDetailedView(appetizer: MockData.sampleAppetizer)
+    AppetizerDetailedView(appetizer: MockData.sampleAppetizer, isShowingDetail: .constant(false))
 }
