@@ -29,4 +29,9 @@ final class AccountViewModel: ObservableObject {
         
         return true
     }
+    
+    func saveChanges() {
+        guard isValidForm else { return }
+        print("changes have been saved successfully")
+    }
 }
