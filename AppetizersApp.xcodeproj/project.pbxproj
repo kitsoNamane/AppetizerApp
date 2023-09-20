@@ -25,6 +25,8 @@
 		AEE11C6F2AB93C5E00D14A4E /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE11C6E2AB93C5E00D14A4E /* Alert.swift */; };
 		AEEE17CE2ABB4DCE00BCEC3D /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE17CD2ABB4DCE00BCEC3D /* APButton.swift */; };
 		AEEE17D02ABB4ED800BCEC3D /* APDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE17CF2ABB4ED800BCEC3D /* APDismissButton.swift */; };
+		AEEE17D22ABB552E00BCEC3D /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE17D12ABB552E00BCEC3D /* AccountViewModel.swift */; };
+		AEEE17D52ABB569100BCEC3D /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE17D42ABB569100BCEC3D /* String+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,8 @@
 		AEE11C6E2AB93C5E00D14A4E /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		AEEE17CD2ABB4DCE00BCEC3D /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
 		AEEE17CF2ABB4ED800BCEC3D /* APDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APDismissButton.swift; sourceTree = "<group>"; };
+		AEEE17D12ABB552E00BCEC3D /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		AEEE17D42ABB569100BCEC3D /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				AEE11C602AB62A0900D14A4E /* AccountView.swift */,
+				AEEE17D12ABB552E00BCEC3D /* AccountViewModel.swift */,
 			);
 			path = AccountView;
 			sourceTree = "<group>";
@@ -113,6 +118,7 @@
 		AEB6D8A52AB95C02000F7E99 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				AEEE17D32ABB567D00BCEC3D /* Extensions */,
 				AEB6D8A82AB95CC8000F7E99 /* Alerts */,
 				AEB6D8A72AB95CAC000F7E99 /* Managers */,
 			);
@@ -191,6 +197,14 @@
 			path = Buttons;
 			sourceTree = "<group>";
 		};
+		AEEE17D32ABB567D00BCEC3D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AEEE17D42ABB569100BCEC3D /* String+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -261,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEEE17D52ABB569100BCEC3D /* String+Ext.swift in Sources */,
 				AEE11C652AB887B800D14A4E /* Appetizer.swift in Sources */,
 				AEB6D8AA2AB95DE0000F7E99 /* AppetizerDetailedView.swift in Sources */,
 				AEE11C6B2AB8CE4600D14A4E /* APError.swift in Sources */,
@@ -276,6 +291,7 @@
 				AEE11C6D2AB939F200D14A4E /* AppetizerListViewModel.swift in Sources */,
 				AEE11C6F2AB93C5E00D14A4E /* Alert.swift in Sources */,
 				AEE11C5F2AB629EF00D14A4E /* AppetizerListView.swift in Sources */,
+				AEEE17D22ABB552E00BCEC3D /* AccountViewModel.swift in Sources */,
 				AEE11C632AB62A2300D14A4E /* OrderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
