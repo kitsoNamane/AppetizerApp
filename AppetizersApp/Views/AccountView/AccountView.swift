@@ -22,11 +22,11 @@ struct AccountView: View {
                         .keyboardType(.emailAddress)
                         .autocapitalization(.none)
                         .autocorrectionDisabled()
-                        
+                    
                     DatePicker("Birthday", selection: $viewModel.birthDay, displayedComponents: .date)
                     
                     Button {
-                        print("save changes")
+                        viewModel.isValidForm
                     } label: {
                         Text("Save Changes")
                     }
@@ -39,6 +39,11 @@ struct AccountView: View {
                 .toggleStyle(SwitchToggleStyle(tint: .brandPrimary))
             }
             .navigationTitle("🤣 Accounts")
+            .alert(item: $viewModel.alertItem) { alertItem in
+                Alert(title: alertItem.title,
+                      message: alertItem.message,
+                      dismissButton: alertItem.dismissButton)
+            }
         }
     }
 }

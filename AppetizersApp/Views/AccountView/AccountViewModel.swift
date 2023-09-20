@@ -14,13 +14,16 @@ final class AccountViewModel: ObservableObject {
     @Published var birthDay = Date()
     @Published var extraNapkins = false
     @Published var frequentRefills = false
+    @Published var alertItem: AlertItem?
     
     var isValidForm: Bool {
         guard !firstName.isEmpty && !lastName.isEmpty && !email.isEmpty else {
+            alertItem = AlertContext.invalidFormData
             return false
         }
         
         guard email.isValidEmail else {
+            alertItem = AlertContext.invalidEmail
             return false
         }
         
