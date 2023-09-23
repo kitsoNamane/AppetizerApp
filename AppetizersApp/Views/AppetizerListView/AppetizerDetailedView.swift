@@ -71,5 +71,5 @@ struct NutritionInfo: View {
 }
 
 #Preview {
-    AppetizerDetailedView(appetizer: MockData.sampleAppetizer, isShowingDetail: .constant(false))
+    AppetizerDetailedView(appetizer: MockData.orderItemOne, isShowingDetail: .constant(false))
 }

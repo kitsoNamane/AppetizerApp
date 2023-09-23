@@ -16,20 +16,34 @@ struct OrderView: View {
         return total
     }
     
+    @State private var orderItems = MockData.appetizers
+    
     var body: some View {
         NavigationStack {
             VStack {
-                List(MockData.appetizers) { appetizer in
-                    AppetizerItemView(appetizer: appetizer)
+                List {
+                    ForEach(orderItems) { appetizer in
+                        AppetizerItemView(appetizer: appetizer)
+                    }
+                    .onDelete(perform: deleteItems)
                 }
+                .listStyle(.plain)
                 
                 Spacer()
                 
-                APButton(title: "$\(orderTotal, specifier: "%.2f") - Place Order")
-                    .padding(.bottom, 40)
+                Button {
+                    print("order placed")
+                } label: {
+                    APButton(title: "$\(orderTotal, specifier: "%.2f") - Place Order")
+                }
+                .padding(.bottom, 20)
             }
             .navigationTitle("🧾 Orders")
         }
+    }
+    
+    func deleteItems(at offsets: IndexSet) {
+        orderItems.remove(atOffsets: offsets)
     }
 }
 

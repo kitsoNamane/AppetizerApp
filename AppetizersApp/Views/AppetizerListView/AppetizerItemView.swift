@@ -30,5 +30,5 @@ struct AppetizerItemView: View {
 }
 
 #Preview {
-    AppetizerItemView(appetizer: MockData.sampleAppetizer)
+    AppetizerItemView(appetizer: MockData.orderItemOne)
 }
