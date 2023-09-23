@@ -27,6 +27,7 @@
 		AEEE17D02ABB4ED800BCEC3D /* APDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE17CF2ABB4ED800BCEC3D /* APDismissButton.swift */; };
 		AEEE17D22ABB552E00BCEC3D /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE17D12ABB552E00BCEC3D /* AccountViewModel.swift */; };
 		AEEE17D52ABB569100BCEC3D /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE17D42ABB569100BCEC3D /* String+Ext.swift */; };
+		AEEE17D72ABB6D8400BCEC3D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE17D62ABB6D8400BCEC3D /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		AEEE17CF2ABB4ED800BCEC3D /* APDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APDismissButton.swift; sourceTree = "<group>"; };
 		AEEE17D12ABB552E00BCEC3D /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		AEEE17D42ABB569100BCEC3D /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		AEEE17D62ABB6D8400BCEC3D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				AEE11C642AB887B800D14A4E /* Appetizer.swift */,
+				AEEE17D62ABB6D8400BCEC3D /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 				AEE11C5F2AB629EF00D14A4E /* AppetizerListView.swift in Sources */,
 				AEEE17D22ABB552E00BCEC3D /* AccountViewModel.swift in Sources */,
 				AEE11C632AB62A2300D14A4E /* OrderView.swift in Sources */,
+				AEEE17D72ABB6D8400BCEC3D /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
