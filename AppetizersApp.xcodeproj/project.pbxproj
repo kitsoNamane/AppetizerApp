@@ -23,7 +23,7 @@
 		AEE11C6B2AB8CE4600D14A4E /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE11C6A2AB8CE4600D14A4E /* APError.swift */; };
 		AEE11C6D2AB939F200D14A4E /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE11C6C2AB939F200D14A4E /* AppetizerListViewModel.swift */; };
 		AEE11C6F2AB93C5E00D14A4E /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE11C6E2AB93C5E00D14A4E /* Alert.swift */; };
-		AEE964192ABF6FA70042710C /* EmptyStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE964182ABF6FA70042710C /* EmptyStates.swift */; };
+		AEE964192ABF6FA70042710C /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE964182ABF6FA70042710C /* EmptyState.swift */; };
 		AEEE17CE2ABB4DCE00BCEC3D /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE17CD2ABB4DCE00BCEC3D /* APButton.swift */; };
 		AEEE17D02ABB4ED800BCEC3D /* APDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE17CF2ABB4ED800BCEC3D /* APDismissButton.swift */; };
 		AEEE17D22ABB552E00BCEC3D /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE17D12ABB552E00BCEC3D /* AccountViewModel.swift */; };
@@ -50,7 +50,7 @@
 		AEE11C6A2AB8CE4600D14A4E /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 		AEE11C6C2AB939F200D14A4E /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
 		AEE11C6E2AB93C5E00D14A4E /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
-		AEE964182ABF6FA70042710C /* EmptyStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStates.swift; sourceTree = "<group>"; };
+		AEE964182ABF6FA70042710C /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
 		AEEE17CD2ABB4DCE00BCEC3D /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
 		AEEE17CF2ABB4ED800BCEC3D /* APDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APDismissButton.swift; sourceTree = "<group>"; };
 		AEEE17D12ABB552E00BCEC3D /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
@@ -197,7 +197,7 @@
 		AEE9641A2ABF6FB20042710C /* Empty States */ = {
 			isa = PBXGroup;
 			children = (
-				AEE964182ABF6FA70042710C /* EmptyStates.swift */,
+				AEE964182ABF6FA70042710C /* EmptyState.swift */,
 			);
 			path = "Empty States";
 			sourceTree = "<group>";
@@ -296,7 +296,7 @@
 				AEEE17CE2ABB4DCE00BCEC3D /* APButton.swift in Sources */,
 				AEE11C612AB62A0900D14A4E /* AccountView.swift in Sources */,
 				AEE11C532AB6268000D14A4E /* AppetizerTabView.swift in Sources */,
-				AEE964192ABF6FA70042710C /* EmptyStates.swift in Sources */,
+				AEE964192ABF6FA70042710C /* EmptyState.swift in Sources */,
 				AEE11C672AB89B1700D14A4E /* AppetizerItemView.swift in Sources */,
 				AEB6D8992AB94D99000F7E99 /* LoadingView.swift in Sources */,
 				AEB6D89D2AB95848000F7E99 /* RemoteImage.swift in Sources */,
