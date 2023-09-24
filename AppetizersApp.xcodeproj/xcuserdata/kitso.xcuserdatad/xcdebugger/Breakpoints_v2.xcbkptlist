@@ -52,5 +52,101 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F7B1AAF7-C988-4F33-A2AA-A6DE7E224DF8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppetizersApp/Views/AccountView/AccountView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "F7B1AAF7-C988-4F33-A2AA-A6DE7E224DF8 - dd541e8eddac6c64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.submitLabel(SwiftUI.SubmitLabel) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.submitLabel(SwiftUI.SubmitLabel) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.submitLabel(SwiftUI.SubmitLabel) -&gt; some&gt;&gt;.0, SwiftUI.DatePicker&lt;SwiftUI.Text&gt;, SwiftUI.Button&lt;SwiftUI.Text&gt;)&gt;, SwiftUI.EmptyView&gt;, &lt;&lt;opaque return type of SwiftUI.View.toggleStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToggleStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0 in AppetizersApp.AccountView.body.getter : some"
+                  moduleName = "AppetizersApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kitso/Developer/AppetizersApp/AppetizersApp/Views/AccountView/AccountView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "496">
+               </Location>
+               <Location
+                  uuid = "F7B1AAF7-C988-4F33-A2AA-A6DE7E224DF8 - 9e1a8248867ef7d3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.submitLabel(SwiftUI.SubmitLabel) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.submitLabel(SwiftUI.SubmitLabel) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.submitLabel(SwiftUI.SubmitLabel) -&gt; some&gt;&gt;.0, SwiftUI.DatePicker&lt;SwiftUI.Text&gt;, SwiftUI.Button&lt;SwiftUI.Text&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.submitLabel(SwiftUI.SubmitLabel) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.submitLabel(SwiftUI.SubmitLabel) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.submitLabel(SwiftUI.SubmitLabel) -&gt; some&gt;&gt;.0, SwiftUI.DatePicker&lt;SwiftUI.Text&gt;, SwiftUI.Button&lt;SwiftUI.Text&gt;)&gt;, SwiftUI.EmptyView&gt;, &lt;&lt;opaque return type of SwiftUI.View.toggleStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToggleStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0 in AppetizersApp.AccountView.body.getter : some"
+                  moduleName = "AppetizersApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kitso/Developer/AppetizersApp/AppetizersApp/Views/AccountView/AccountView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "1244">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AADD7315-6D1B-4B36-900A-9C2A3AEF043A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppetizersApp/Views/AccountView/AccountView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "AADD7315-6D1B-4B36-900A-9C2A3AEF043A - dc8d13b6538851f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0 in AppetizersApp.AccountView.body.getter : some"
+                  moduleName = "AppetizersApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kitso/Developer/AppetizersApp/AppetizersApp/Views/AccountView/AccountView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "400">
+               </Location>
+               <Location
+                  uuid = "AADD7315-6D1B-4B36-900A-9C2A3AEF043A - dd541e8eddac6c64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.submitLabel(SwiftUI.SubmitLabel) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.submitLabel(SwiftUI.SubmitLabel) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.submitLabel(SwiftUI.SubmitLabel) -&gt; some&gt;&gt;.0, SwiftUI.DatePicker&lt;SwiftUI.Text&gt;, SwiftUI.Button&lt;SwiftUI.Text&gt;)&gt;, SwiftUI.EmptyView&gt;, &lt;&lt;opaque return type of SwiftUI.View.toggleStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToggleStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0 in AppetizersApp.AccountView.body.getter : some"
+                  moduleName = "AppetizersApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kitso/Developer/AppetizersApp/AppetizersApp/Views/AccountView/AccountView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "496">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
