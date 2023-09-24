@@ -36,7 +36,7 @@ struct AppetizerListView: View {
                 LoadingView()
             }
         }
-        .onAppear {
+        .task {
             viewModel.getAppetizers()
         }
         .alert(item: $viewModel.alertItem) { alertItem in
