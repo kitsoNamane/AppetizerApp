@@ -39,10 +39,13 @@ struct OrderView: View {
             .navigationTitle("🧾 Orders")
         }
     }
-    
-    
 }
 
 #Preview {
     OrderView()
+        .environmentObject({ () -> Order in
+            let envObj = Order()
+            envObj.items = MockData.appetizers
+            return envObj
+        }())
 }
