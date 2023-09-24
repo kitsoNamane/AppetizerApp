@@ -26,10 +26,14 @@ struct AppetizerTabView: View {
                     Text("Order")
                 }
         }
-        .accentColor(Color.brandPrimary)
     }
 }
 
 #Preview {
     AppetizerTabView()
+        .environmentObject({() -> Order in
+            let envObj = Order()
+            envObj.items = MockData.appetizers
+            return envObj
+        }())
 }
